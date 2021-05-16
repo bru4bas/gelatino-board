@@ -789,12 +789,12 @@ $Comp
 L Device:R_Pack04 RN5
 U 1 1 6021EBB2
 P 10100 1050
-F 0 "RN5" V 9683 1050 50  0000 C CNN
-F 1 "1k" V 9774 1050 50  0000 C CNN
+F 0 "RN5" V 9700 1050 50  0000 C CNN
+F 1 "1k" V 9775 1050 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 10375 1050 50  0001 C CNN
 F 3 "~" H 10100 1050 50  0001 C CNN
 	1    10100 1050
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_Pack04 RN6
@@ -805,7 +805,7 @@ F 1 "1k" V 10400 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 10375 1450 50  0001 C CNN
 F 3 "~" H 10100 1450 50  0001 C CNN
 	1    10100 1450
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	10300 850  10425 850 
@@ -879,7 +879,7 @@ F 1 "1k" V 9774 2275 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 10375 2275 50  0001 C CNN
 F 3 "~" H 10100 2275 50  0001 C CNN
 	1    10100 2275
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_Pack04 RN8
@@ -890,7 +890,7 @@ F 1 "1k" V 10425 2675 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 10375 2675 50  0001 C CNN
 F 3 "~" H 10100 2675 50  0001 C CNN
 	1    10100 2675
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	10300 2075 10425 2075
@@ -1627,13 +1627,13 @@ Text GLabel 3825 6375 2    50   BiDi ~ 0
 AD4
 Wire Wire Line
 	3825 6375 3650 6375
-Text GLabel 2525 1050 1    50   BiDi ~ 0
+Text GLabel 1350 1025 1    50   BiDi ~ 0
 IO0
-Text GLabel 2625 1050 1    50   BiDi ~ 0
+Text GLabel 1450 1025 1    50   BiDi ~ 0
 IO1
-Text GLabel 2725 1050 1    50   BiDi ~ 0
+Text GLabel 4625 2475 2    50   BiDi ~ 0
 IO2
-Text GLabel 2825 1050 1    50   BiDi ~ 0
+Text GLabel 4625 2375 2    50   BiDi ~ 0
 IO3
 Wire Wire Line
 	2525 1050 2525 1125
@@ -1643,13 +1643,13 @@ Wire Wire Line
 	2725 1050 2725 1125
 Wire Wire Line
 	2825 1050 2825 1125
-Text GLabel 4625 2175 2    50   BiDi ~ 0
-IO4
 Text GLabel 4625 2275 2    50   BiDi ~ 0
+IO4
+Text GLabel 4625 2175 2    50   BiDi ~ 0
 IO5
-Text GLabel 4625 2375 2    50   BiDi ~ 0
+Text GLabel 1600 2375 0    50   BiDi ~ 0
 IO6
-Text GLabel 4625 2475 2    50   BiDi ~ 0
+Text GLabel 1600 2475 0    50   BiDi ~ 0
 IO7
 Wire Wire Line
 	4500 2175 4625 2175
@@ -1678,13 +1678,13 @@ Wire Wire Line
 	2075 2575 2125 2575
 Wire Wire Line
 	2075 2675 2125 2675
-Text GLabel 1600 2375 0    50   BiDi ~ 0
+Text GLabel 2525 1050 1    50   BiDi ~ 0
 AD0
-Text GLabel 1600 2475 0    50   BiDi ~ 0
+Text GLabel 2625 1050 1    50   BiDi ~ 0
 AD1
-Text GLabel 1600 2575 0    50   BiDi ~ 0
+Text GLabel 2725 1050 1    50   BiDi ~ 0
 AD2
-Text GLabel 1600 2675 0    50   BiDi ~ 0
+Text GLabel 2825 1050 1    50   BiDi ~ 0
 AD3
 Wire Wire Line
 	1600 2375 1675 2375
@@ -1724,9 +1724,9 @@ Wire Wire Line
 	1900 1875 1900 2075
 Wire Wire Line
 	1900 2075 2125 2075
-Text GLabel 1900 1400 1    50   BiDi ~ 0
+Text GLabel 1600 2575 0    50   BiDi ~ 0
 IO8
-Text GLabel 2050 1400 1    50   BiDi ~ 0
+Text GLabel 1600 2675 0    50   BiDi ~ 0
 IO9
 Wire Wire Line
 	1900 1400 1900 1625
