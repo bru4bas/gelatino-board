@@ -1189,11 +1189,11 @@ Text GLabel 4825 4650 2    50   BiDi ~ 0
 MSCK
 Wire Wire Line
 	4825 4650 4750 4650
-Text GLabel 4825 4750 2    50   BiDi ~ 0
+Text GLabel 4825 4850 2    50   BiDi ~ 0
 MSDI
 Wire Wire Line
 	4825 4750 4750 4750
-Text GLabel 4825 4850 2    50   BiDi ~ 0
+Text GLabel 4825 4750 2    50   BiDi ~ 0
 MSDO
 Wire Wire Line
 	4825 4850 4750 4850
@@ -1916,4 +1916,6 @@ Wire Wire Line
 	7450 6125 7550 6125
 NoConn ~ 3025 1575
 NoConn ~ 3125 1575
+Text Notes 5700 5450 0    30   ~ 0
+* Crystal not needed in some chips
 $EndSCHEMATC
