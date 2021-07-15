@@ -1,0 +1,4 @@
+bom: BOM/BOM.ods
+eda:
+  type: kicad
+  pcb: ardfpga.kicad_pcb
